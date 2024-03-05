@@ -1,9 +1,160 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "products": [
+    {
+      "id": "1",
+      "name": "Beats By Dre",
+      "price": 29.99,
+      "brand": "DRE",
+      "modelName": "Beats By Dre",
+      "colors": [
+        {
+          "name": "black",
+          "hexCode": "#000"
+        }
+      ],
+      "formFactor": "headphones",
+      "connectivityTechnology": "wireless",
+      "amount": 1,
+      "imgUrl": "https://ik.imagekit.io/kwzzowwcg/beats-by-dre.png"
+    },
+    {
+      "id": "2",
+      "name": "JBL Speaker",
+      "price": 39.99,
+      "brand": "JBL",
+      "modelName": "Flip 5",
+      "colors": [
+        {
+          "name": "black",
+          "hexCode": "#000"
+        }
+      ],
+      "formFactor": "speaker",
+      "connectivityTechnology": "bluetooth",
+      "amount": 10,
+      "imgUrl": "https://ik.imagekit.io/kwzzowwcg/jbl-speaker.png"
+    },
+    {
+      "id": "3",
+      "name": "Samsung Earphones",
+      "price": 29.99,
+      "brand": "SAMSUNG",
+      "modelName": "Earphones 1",
+      "colors": [
+        {
+          "name": "black",
+          "hexCode": "#000"
+        }
+      ],
+      "formFactor": "in ears",
+      "connectivityTechnology": "wired",
+      "amount": 100,
+      "imgUrl": "https://ik.imagekit.io/kwzzowwcg/samsung-earphones-black.png"
+    },
+    {
+      "id": "4",
+      "name": "Wireless Headset",
+      "price": 29.99,
+      "brand": "SAMSUNG",
+      "modelName": "Headset",
+      "colors": [
+        {
+          "name": "black",
+          "hexCode": "#000"
+        }
+      ],
+      "formFactor": "headset",
+      "connectivityTechnology": "wireless",
+      "amount": 100,
+      "imgUrl": "https://ik.imagekit.io/kwzzowwcg/wireless-headset.png"
+    },
+    {
+      "id": "5",
+      "name": "Apple Airpods",
+      "price": 29.99,
+      "brand": "Apple",
+      "modelName": "Airpods",
+      "colors": [
+        {
+          "name": "light",
+          "hexCode": "# 9d9"
+        }
+      ],
+      "formFactor": "in ears",
+      "connectivityTechnology": "bluetooth",
+      "amount": 10,
+      "imgUrl": "https://ik.imagekit.io/kwzzowwcg/apple-airpods.png"
+    },
+    {
+      "id": "6",
+      "name": "Beats By Dre Studio 3",
+      "price": 29.99,
+      "brand": "DRE",
+      "modelName": "Studio 3",
+      "colors": [
+        {
+          "name": "black",
+          "hexCode": "#000"
+        }
+      ],
+      "formFactor": "headphones",
+      "connectivityTechnology": "wireless",
+      "amount": 10,
+      "imgUrl": "https://ik.imagekit.io/kwzzowwcg/beats-by-dre-studio-3.png"
+    },
+    {
+      "id": "7",
+      "name": "Apple Airbuds Max",
+      "price": 29.99,
+      "brand": "Apple",
+      "modelName": "Airbuds Max",
+      "colors": [
+        {
+          "name": "light",
+          "hexCode": "#d9d9d9"
+        }
+      ],
+      "formFactor": "headphones",
+      "connectivityTechnology": "bluetooth",
+      "amount": 100,
+      "imgUrl": "https://ik.imagekit.io/kwzzowwcg/apple-airpods-max.png"
+    },
+    {
+      "id": "8",
+      "name": "Samsung Earphones",
+      "price": 29.99,
+      "brand": "SAMSUNG",
+      "modelName": "Earphones 2",
+      "colors": [
+        {
+          "name": "light",
+          "hexCode": "#d9d9d9"
+        }
+      ],
+      "formFactor": "in ears",
+      "connectivityTechnology": "wired",
+      "amount": 100,
+      "imgUrl": "https://ik.imagekit.io/kwzzowwcg/samsung-earphones-white.png"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "cart": [
+    {
+      "id": "1",
+      "productId": "8",
+      "name": "Samsung Earphones",
+      "color": "light",
+      "amount": 2,
+      "price": 29.99,
+      "imgUrl": "https://ik.imagekit.io/kwzzowwcg/samsung-earphones-white.png"
+    },
+    {
+      "id": "2",
+      "productId": "7",
+      "name": "Apple Airbuds Max",
+      "color": "light",
+      "amount": 1,
+      "price": 29.99,
+      "imgUrl": "https://ik.imagekit.io/kwzzowwcg/apple-airpods-max.png"
+    }
+  ]
 }
